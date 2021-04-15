@@ -56,6 +56,7 @@ h2 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  transition: $transitionTime;
 }
 ul.media-info {
   display: flex;
@@ -81,5 +82,6 @@ a:hover {
   color: $white;
   padding: 10px;
   border-radius: 50%;
+  transition: $transitionTime;
 }
 </style>
